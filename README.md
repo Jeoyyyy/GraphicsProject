@@ -3,5 +3,6 @@
 - Achieved graphic feature
   - perspective projection
   - hidden polygon elimination
-  - clipping 
+  - 3D clipping 
   - lighting
+  - shading
