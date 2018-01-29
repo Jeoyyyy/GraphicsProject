@@ -1,0 +1,15 @@
+{
+	scale 0.08 0.08 0.08
+	{
+		obj "palm_tree"
+	}
+	{
+		translate 300 0 0
+		obj "palm_tree"
+	}
+
+	{
+		translate 600 0 0
+		obj "palm_tree"
+	}
+}

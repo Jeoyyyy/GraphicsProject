@@ -1,0 +1,61 @@
+{
+	ambient 0.1 0.1 0.1
+	
+	{
+		translate -25 5 -15
+		rotate Y -45
+		camera  -1 -0.6 1 0.6 -0.1 -200
+		depth 0 -200 (0 0 0)
+		{
+			translate 0 25 -20
+			light 5, 4, 3, 1, 0.1
+		}
+	}
+	
+	phong
+	{
+		translate 20 0 -68
+
+		scale 6 6 6
+		obj "houseF"
+	}
+	
+	{
+		translate -14 10 -60
+
+		scale 0.08 0.08 0.08
+		obj "GAZEBOobj"
+	}
+	gouraud
+	{
+		translate -15 0 -22
+		scale 0.01 0.01 0.01
+		rotate Y 90
+		obj "old_man"
+	}
+	
+	surface 0.55 0.55 0.45 0.3 8
+	{
+		translate -10 0 -28
+		rotate Y 90
+		scale 0.07 0.07 0.07
+		obj "truck"
+	} 
+	{
+		translate 23 26 -30
+		scale 3 3 3
+		rotate Y 70
+		obj "Helicopter"
+	}
+	flat
+	surface 0.4 0.9 0 0.3 8
+	{
+		translate -5 0 -22
+		file "palm_tree_line"
+	}
+#	{
+#		translate 35 0 -48
+#		file "palm_tree_line"
+#	}
+	
+}
